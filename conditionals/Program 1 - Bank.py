@@ -1,5 +1,5 @@
 name = input("Greetings:")
-x = input("")
+
 
 if name == "Hello":
     print("0")

@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Commit & Push to GitHub",
+            "type": "shell",
+            "command": "git add .; git commit -m \"Update Python files\"; git push",
+            "problemMatcher": []
+        }
+    ]
+}
