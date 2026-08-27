@@ -7,6 +7,7 @@ def camel_case():
 
 def snake_case(camel):
     for letter in camel:
+        print(letter)
         if letter.isupper():
             print("_" + letter.lower(),end="")
         else:
